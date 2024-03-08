@@ -1,4 +1,5 @@
 function findOccurrences(text, word) {
+    
     let wordsArray = text.split(' ')
     let occurrences = 0
 
