@@ -7,6 +7,5 @@ function findOccurrences(text, word) {
             occurrences += 1
         }
     }
-
-    console.log(occurrences)
+ console.log(occurrences)
 }
