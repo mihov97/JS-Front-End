@@ -8,4 +8,3 @@ function printMatrixWithNumber(n) {
     }
   }
 
-printMatrixWithNumber(3)
