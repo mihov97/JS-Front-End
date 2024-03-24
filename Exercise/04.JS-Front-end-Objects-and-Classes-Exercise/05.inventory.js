@@ -14,7 +14,6 @@ function solve(input) {
 
     heroesArray.sort((a, b) => a.level - b.level);
     
-
     for (const hero of heroesArray) {
         console.log(`Hero: ${hero.name}`);
         console.log(`level => ${hero.level}`);
