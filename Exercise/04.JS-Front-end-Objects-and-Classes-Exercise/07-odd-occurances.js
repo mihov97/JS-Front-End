@@ -6,7 +6,6 @@ function solve(input) {
         if (!wordOcc.hasOwnProperty(word.toLowerCase())) {
             wordOcc[word.toLowerCase()] = 0;
         }
-
         wordOccs[word.toLowerCase()]++;
     }
 
@@ -16,7 +15,6 @@ function solve(input) {
             result.push(word);
         }
     }
-
     console.log(result.join(' '));
 }
 
