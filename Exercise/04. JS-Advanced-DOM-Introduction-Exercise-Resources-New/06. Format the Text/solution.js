@@ -1,6 +1,7 @@
 function solve() {
     const outputEl = document.getElementById('output');
     const textAreaEl = document.getElementById('input');
+   
     const text = textAreaEl.value;
 
     const result = text
