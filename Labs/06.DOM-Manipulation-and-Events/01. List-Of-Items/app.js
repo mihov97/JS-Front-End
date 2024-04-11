@@ -8,9 +8,7 @@ function addItem() {
     
     newEl.textContent = inputEl.value;
 
-    
-    itemEl.appendChild(newItemElement);
+     itemEl.appendChild(newItemElement);
 
-    
     inputEl.value = '';
 }
