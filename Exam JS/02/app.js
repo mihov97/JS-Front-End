@@ -22,7 +22,7 @@ function solve() {
         const checkLiElement = createArticleElement(name, phone, category);
         checkListElement.appendChild(checkLiElement)
 
-       // addButtonElement.setAttribute('disabled', 'disabled'); //moje bi ne
+       
 
         nameInputElement.value = '';
         phoneNumberInputElement.value = '';
@@ -39,7 +39,7 @@ function solve() {
 
             checkLiElement.remove();
 
-           // addButtonElement.removeAttribute('disabled'); // ne e sig
+           
         })
 
         saveButtonElement.addEventListener('click', () => {
