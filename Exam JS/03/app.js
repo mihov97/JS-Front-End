@@ -38,6 +38,7 @@ function solve() {
  
             let paraThirdElement = document.createElement('p')
             let type = game.type
+            
             paraThirdElement.textContent = type
  
             secondDiv.appendChild(paraElement)
@@ -61,6 +62,7 @@ function solve() {
             deleteButtonElement.addEventListener('click', gameDeleteF)
  
             buttonContDiv.appendChild(changeButtonElement)
+            
             buttonContDiv.appendChild(deleteButtonElement)
  
            
@@ -69,6 +71,7 @@ function solve() {
             firstDiv.appendChild(buttonContDiv)
  
             listOfGamesElement.appendChild(firstDiv)
+            
             
             async function gameChangeF(event) {
                 firstDiv.remove()
@@ -108,6 +111,7 @@ function solve() {
                 }
             }
  
+            
             async function gameDeleteF(event) {
                 await fetch(baseUrl + game._id, {
                     method: 'DELETE'
@@ -118,6 +122,7 @@ function solve() {
         }
     }
  
+    
     async function newGameAdding(event) {
         let newGame = {
             'name': nameInput.value,
