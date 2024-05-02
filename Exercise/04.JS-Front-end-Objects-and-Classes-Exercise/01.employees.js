@@ -6,5 +6,6 @@ function solve(employeeNames) {
     }
     for (const employee in employees) {
     console.log(`Name: ${employee} -- Personal Number: ${employees[employee]}`);
-   }
+   
+    }
 }
