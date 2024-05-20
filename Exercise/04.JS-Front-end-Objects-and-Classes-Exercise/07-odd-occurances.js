@@ -11,10 +11,12 @@ function solve(input) {
 
     const result = [];
     for (const word in wordOcc) {
+        
         if (wordOcc[word] % 2 !== 0) {
             result.push(word);
         }
     }
+    
     console.log(result.join(' '));
 }
 
