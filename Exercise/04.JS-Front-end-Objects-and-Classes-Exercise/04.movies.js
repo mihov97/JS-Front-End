@@ -28,6 +28,7 @@ function solve(input) {
             }
         }
     }
+    
 
     movies
         .filter(movie => movie.director && movie.date)
