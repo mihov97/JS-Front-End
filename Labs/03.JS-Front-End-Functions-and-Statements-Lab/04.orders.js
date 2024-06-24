@@ -15,6 +15,7 @@ function orders(product, quantity) {
         return thePrice;
     }
 
+    
     let singlePrice = defineProductPrice;
     let result = singlePrice(product) * quantity;
 
