@@ -1,7 +1,9 @@
 function orders(product, quantity) {
 
     function defineProductPrice(someProduct) {
+        
         let thePrice = 0;
+        
         switch (someProduct) {
             case  'coffee':
                 return 1.5;
