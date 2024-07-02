@@ -16,6 +16,7 @@ function solve(input){
  
     while(input[restOfAllCounter] !== 'Ride Off Into Sunset'){
         
+        
         const [command, name, firstArg, secondArg] = input[restOfAllCounter].split(' - ')
  
         if(command === 'FireShot'){
@@ -31,11 +32,13 @@ function solve(input){
         
         } else if (command === 'TakeHit'){
             
+           
             let person = returningPerson(name)
             person.health -= Number(firstArg)
             
             let personName = `${person.name}`
             
+           
             if(person.health > 0){
                 console.log(`${name} took a hit for ${firstArg} HP from ${secondArg} and now has ${person.health} HP!`);
            
