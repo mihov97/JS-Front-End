@@ -1,4 +1,5 @@
 function solve(input){
+    
     let characters = []
  
     inputLines = input[0]
@@ -10,10 +11,12 @@ function solve(input){
         restOfAllCounter += 1
     }
  
+    
     function returningPerson(name){
         return characters.find(heroName => heroName.name === name)
     }
  
+    
     while(input[restOfAllCounter] !== 'Ride Off Into Sunset'){
         
         
