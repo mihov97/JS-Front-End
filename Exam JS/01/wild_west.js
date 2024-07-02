@@ -74,7 +74,6 @@ function solve(input){
                 
                 person.health += Number(firstArg)
            
-            
             } else {
                 console.log(`${name} is in full health!`);
             }
