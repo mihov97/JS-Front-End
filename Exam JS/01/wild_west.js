@@ -63,9 +63,11 @@ function solve(input){
                 console.log(`${name}'s pistol is fully loaded!`);
             }
        
+      
         } else if (command ==='PatchUp'){
             let person = returningPerson(name)
             
+
             
             if (person.health + Number(firstArg) > 100){
                 console.log(`${name} patched up and recovered ${100 - person.health} HP!`);
@@ -80,6 +82,7 @@ function solve(input){
             } else {
                 console.log(`${name} is in full health!`);
             }
+       
         }
         
         restOfAllCounter += 1
